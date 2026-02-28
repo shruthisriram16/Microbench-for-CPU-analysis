@@ -20,8 +20,6 @@ Microbench/
 ├── aes/              # AES-NI encryption benchmarks
 ├── avx_add/          # AVX addition operations
 ├── avx_div/          # AVX division operations
-├── avx_mul/          # AVX multiplication (not implemented)
-├── avx_sub/          # AVX subtraction (not implemented)
 ├── cpu_bound/        # CPU-intensive workload benchmarks
 ├── fma_add/          # Fused Multiply-Add addition
 ├── fma_sub/          # Fused Multiply-Add subtraction
@@ -345,16 +343,14 @@ Time taken for AVX addition (CPU time): 0.000002 seconds
 
 | Benchmark | Status | Notes |
 |-----------|--------|-------|
-| AVX Addition | ✅ Complete | |
-| AVX Division | ✅ Complete | |
-| AVX Multiplication | ❌ Not Implemented | Directory exists, no code |
-| AVX Subtraction | ❌ Not Implemented | Directory exists, no code |
-| FMA Addition | ✅ Complete | |
-| FMA Subtraction | ✅ Complete | Smaller array (1KB) |
-| CPU Bound | ✅ Complete | |
-| Memory Bound | ✅ Complete | |
-| AES-NI | ✅ Complete | |
-| SHA-NI | ✅ Complete | |
+| AVX Addition |  Complete | |
+| AVX Division | Complete | |
+| FMA Addition | Complete | |
+| FMA Subtraction |  Complete | Smaller array (1KB) |
+| CPU Bound |  Complete | |
+| Memory Bound |  Complete | |
+| AES-NI | Complete | |
+| SHA-NI | Complete | |
 
 ---
 
