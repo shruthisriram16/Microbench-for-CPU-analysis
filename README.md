@@ -7,7 +7,7 @@ Microbench is a collection of microbenchmarks designed to measure and analyze th
 **Author:** Shruthi Sriram  
 **Platform:** Windows (x86/x64)  
 **Language:** C with Intel Intrinsics  
-**Development Period:** March 2025 - Present
+**Development Period:** March 2025 
 
 ---
 
@@ -388,11 +388,7 @@ Time taken for AVX addition (CPU time): 0.000002 seconds
 
 ---
 
-## License
 
-Not specified in source files.
-
----
 
 ## Contact
 
